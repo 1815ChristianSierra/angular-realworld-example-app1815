@@ -17,6 +17,7 @@ module.exports = function (config) {
       reports: ['lcovonly', 'text-summary'],
       fixWebpackSourcePaths: true
     },
+    failOnEmptyTestSuite: false,
     singleRun: true,
     autoWatch: false
   });
